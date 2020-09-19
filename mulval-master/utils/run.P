@@ -1,0 +1,19 @@
+:-['/home/amirshk/Downloads/mulval-master/lib/libmulval'].
+:-['/home/amirshk/Downloads/mulval-master/src/analyzer/translate'].
+:-['/home/amirshk/Downloads/mulval-master/src/analyzer/attack_trace'].
+:-['/home/amirshk/Downloads/mulval-master/src/analyzer/auxiliary'].
+
+:-dynamic meta/1.
+
+:-load_dyn('running_rules.P').
+
+:-load_dyn('/home/amirshk/Downloads/cybercaptor-server/tmp/mulval-input-generated.P').
+
+:-assert(traceMode(completeTrace2)).
+
+:-load_dyn('/home/amirshk/Downloads/mulval-master/src/analyzer/advances_notrim.P').
+
+:-assert(cvss(_, none)).
+
+:-mulval_run.
+

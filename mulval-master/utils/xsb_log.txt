@@ -1,0 +1,1 @@
+./graph_gen.sh: 264: ./graph_gen.sh: xsb: not found

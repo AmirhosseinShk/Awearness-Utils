@@ -1,0 +1,656 @@
+
+Building XSB Version 3.8.0 (Three-Buck Chuck) of 2017-10-28
+
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+configure: checking host system type... x86_64-unknown-linux-gnu
+creating cache /home/amirshk/Downloads/XSB/config/x86_64-unknown-linux-gnu/config.cache
+Checking installation directories...
+checking /home/amirshk/Downloads/XSB/lib... OK
+checking /home/amirshk/Downloads/XSB/syslib... OK
+checking /home/amirshk/Downloads/XSB/cmplib... OK
+checking /home/amirshk/Downloads/XSB/bin... OK
+checking /home/amirshk/Downloads/XSB/config/x86_64-unknown-linux-gnu/bin... OK
+checking /home/amirshk/Downloads/XSB/config/x86_64-unknown-linux-gnu/lib... OK
+checking /home/amirshk/Downloads/XSB/config/x86_64-unknown-linux-gnu/saved.o... OK
+checking /home/amirshk/Downloads/XSB/site/lib... OK
+checking /home/amirshk/Downloads/XSB/site/config/x86_64-unknown-linux-gnu/lib... OK
+checking /home/amirshk/Downloads/XSB/emu... OK
+checking /home/amirshk/Downloads/XSB/lib... OK
+checking /home/amirshk/Downloads/XSB/syslib... OK
+checking /home/amirshk/Downloads/XSB/cmplib... OK
+checking /home/amirshk/Downloads/XSB/bin... OK
+checking /home/amirshk/Downloads/XSB/build... OK
+checking /home/amirshk/Downloads/XSB/config/x86_64-unknown-linux-gnu/bin... OK
+checking /home/amirshk/Downloads/XSB/config/x86_64-unknown-linux-gnu/lib... OK
+checking /home/amirshk/Downloads/XSB/config/x86_64-unknown-linux-gnu/saved.o... OK
+checking /home/amirshk/Downloads/XSB/etc... OK
+checking /home/amirshk/Downloads/XSB/packages... OK
+checking /home/amirshk/Downloads/XSB/packages/xmc... OK
+checking /home/amirshk/Downloads/XSB/examples... OK
+checking /home/amirshk/Downloads/XSB/prolog_includes... OK
+Checking installation directories ... Done
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -E
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for gcc... yes
+checking whether we are using SunPro C... no
+***Configuring DB drivers
+***Configuring Curl (WWW protocol library)
+***Configuring XPath support
+***Configuring PCRE (Perl pattern matching library)
+checking whether make sets $(MAKE)... yes
+checking size of long int... 8
+
+    Configuring XSB for a 64 bit machine
+
+checking for main in -lm... yes
+checking for main in -ldl... yes
+checking for main in -lnsl... yes
+checking for main in -lpthread... yes
+checking for main in -lsocket... no
+checking for readline in -lreadline... no
+checking for sched_get_priority_max... yes
+checking stdarg.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking sys/resource.h usability... yes
+checking sys/resource.h presence... yes
+checking for sys/resource.h... yes
+checking for malloc... yes
+checking for unistd.h... (cached) yes
+checking for string.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for an ANSI C-conforming const... yes
+checking return type of signal handlers... void
+checking for strdup... yes
+checking for mkdir... yes
+checking for gethostbyname... yes
+checking for gettimeofday... yes
+checking for socket... yes
+checking for snprintf... yes
+checking for regexec... yes
+checking for regerror... yes
+checking for regcomp... yes
+checking for fnmatch... yes
+checking for glob... yes
+checking for globfree... yes
+checking for execvp... yes
+checking for itkwish... no
+XMC GUI not supported due to failure to find Incr Tcl/Tk
+checking whether loader understands -Wl,-export-dynamic... yes
+checking for inline... inline
+    Not using SMODELS
+checking jni.h usability... no
+checking jni.h presence... no
+checking for jni.h... no
+checking jni_md.h usability... no
+checking jni_md.h presence... no
+checking for jni_md.h... no
+configure: updating cache /home/amirshk/Downloads/XSB/config/x86_64-unknown-linux-gnu/config.cache
+configure: creating ./config.status
+config.status: creating /home/amirshk/Downloads/XSB/config/x86_64-unknown-linux-gnu/topMakefile
+config.status: creating /home/amirshk/Downloads/XSB/config/x86_64-unknown-linux-gnu/emuMakefile
+config.status: creating /home/amirshk/Downloads/XSB/config/x86_64-unknown-linux-gnu/modMakefile
+config.status: creating /home/amirshk/Downloads/XSB/config/x86_64-unknown-linux-gnu/gppMakefile
+config.status: creating /home/amirshk/Downloads/XSB/config/x86_64-unknown-linux-gnu/smoMakefile
+config.status: creating /home/amirshk/Downloads/XSB/config/x86_64-unknown-linux-gnu/makedef.sh
+config.status: creating /home/amirshk/Downloads/XSB/config/x86_64-unknown-linux-gnu/lib/xsb_configuration.P
+config.status: creating windows/xsb_configuration.P
+config.status: creating windows64/xsb_configuration.P
+config.status: creating makexsb
+config.status: creating /home/amirshk/Downloads/XSB/bin/chr_pp
+config.status: creating /home/amirshk/Downloads/XSB/bin/xsb
+config.status: creating /home/amirshk/Downloads/XSB/config/x86_64-unknown-linux-gnu/banner.msg
+config.status: creating windows/banner.msg
+config.status: creating windows64/banner.msg
+config.status: creating windows/MSVC_mkfile.mak
+config.status: creating windows64/MSVC_mkfile.mak
+config.status: creating /home/amirshk/Downloads/XSB/packages/xmc/xmc-gui
+config.status: creating /home/amirshk/Downloads/XSB/config/x86_64-unknown-linux-gnu/xsb_config.h
+config.status: creating windows/xsb_config.h
+config.status: creating windows/xsb_debug.h
+config.status: creating windows64/xsb_config.h
+config.status: creating windows64/xsb_debug.h
+config.status: creating /home/amirshk/Downloads/XSB/config/x86_64-unknown-linux-gnu/xsb_debug.h
+
+
+            INSTALLATION SUMMARY
+            --------------------
+
+XSB Version:	   3.8.0
+Code name:	   Three-Buck Chuck
+Release date:	   2017-10-28
+Configuration:	   x86_64-unknown-linux-gnu
+Installation date: Tue Aug 25 09:35:48 PDT 2020
+
+  Build process is looking for XSB sources in:	  /home/amirshk/Downloads/XSB
+  XSB should be installed in:			  /home/amirshk/Downloads/XSB
+  Configuration-specific executables go in:	  /home/amirshk/Downloads/XSB/config/x86_64-unknown-linux-gnu/bin
+  Configuration-specific libraries go in:	  /home/amirshk/Downloads/XSB/config/x86_64-unknown-linux-gnu/lib
+  Object code goes in:				  /home/amirshk/Downloads/XSB/config/x86_64-unknown-linux-gnu/saved.o
+  Site-specific code goes in:			  /home/amirshk/Downloads/XSB/site
+  Site configuration-specific code goes in:	  /home/amirshk/Downloads/XSB/site/config/x86_64-unknown-linux-gnu
+  XSB will be built with:			  gcc   -O3 -fno-strict-aliasing   -fPIC -Wall -pipe   
+  builtin.c will be built with: 		  gcc  -O3 -fno-strict-aliasing   -fPIC -Wall -pipe 
+  loader_xsb.c will be built with: 		  gcc  -O3 -fno-strict-aliasing   -fPIC -Wall -pipe 
+  emuloop.c will be built with: 		  gcc  -O3 -fno-strict-aliasing   -fPIC -Wall -pipe 
+  tr_utils.c will be built with:		  gcc  -O3 -fno-strict-aliasing   -fPIC -Wall -pipe 
+  Loader flags: 				  -lm -ldl -Wl,-export-dynamic -lpthread
+  Compilation mode:				  optimal
+  XSB abstract machine: 			  slg-wam
+  XSB scheduling strategy:			  local
+  Garbage Collection Stress-Test:		  no
+  Jumptable-based emulator loop:		  yes
+  Demand support:                                 no
+
+  Details of support for modular database drivers:
+
+  ODBC support:                                   yes
+  ODBC library directory:                         
+  ODBC C Flags:                                   
+  ODBC Loader Flags:                              
+
+  MySQL support:                                  no
+  MySQL library directory:                        
+  MySQL header directory:                         
+  MySQL C Flags:                                  
+  MySQL Loader Flags:                             
+
+  MySQL Embedded Server support:                  no
+  MySQL Embedded Server library directory:        
+  MySQL Embedded Server header directory:         
+  MySQL Embedded Server C Flags:                  -g -W -Wall  -g -O2
+  MySQL Embedded Server Loader Flags:              
+
+  Native support for Oracle:			  no
+  Support for the old ODBC driver:		  no
+
+  Java compiler:                                  /usr/bin/javac
+  Support for InterProlog's native engine:   	  no
+  -- JDK may not have been installed or
+  -- JAVA_HOME not set. You will still be able
+  -- to use InterProlog's subprocess engine.
+
+  POSIX regexp matching libraries:                yes
+  POSIX wildcard matching libraries:              yes
+
+  Curl support (HTTP protocol library):           yes
+  Curl C flags:        	                          -g -O2
+  Curl loader flags:                              
+
+  XPath support:				  yes
+  XPath C flags:				  -I/usr/include/libxml2
+  XPath loader flags:				  -L/usr/lib -lxml2
+
+  PCRE support (Perl pattern matching):           yes
+  PCRE C flags:        	                          -g -O2
+  PCRE loader flags:                              
+
+
+
+*** Warning: The commands 'todos' and 'unix2dos' are not installed.
+***          Install one of these to speed up compilation of XSB in Windows
+***          Due to this, always run 'makexsb clean' before every 'makexsb'
+
+XSB is configured for installation in /home/amirshk/Downloads/XSB
+Site libraries are to be found in /home/amirshk/Downloads/XSB/site
+Configuration report is saved in ./Installation_summary
+
+***Now compile XSB with:   `./makexsb'
+
+
+make -f ../config/x86_64-unknown-linux-gnu/topMakefile   clean
+
+Cleaning up /home/amirshk/Downloads/XSB/config/x86_64-unknown-linux-gnu/lib
+Cleaning up /home/amirshk/Downloads/XSB/config/x86_64-unknown-linux-gnu/saved.o
+Cleaning up /home/amirshk/Downloads/XSB/config/x86_64-unknown-linux-gnu/lib
+Cleaning up /home/amirshk/Downloads/XSB/emu
+Cleaning up packages
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/packages'
+/bin/rm -f core *.xwam *.O *~ .*~ *.bak .#*
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/packages'
+Cleaning up /home/amirshk/Downloads/XSB/packages/altCDF
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/packages/altCDF'
+/bin/rm -f *.xwam *.O core *~ *.bak .#*
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/packages/altCDF'
+Cleaning up /home/amirshk/Downloads/XSB/packages/bounds
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/packages/bounds'
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/packages/bounds'
+Cleaning up /home/amirshk/Downloads/XSB/packages/CDF
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/packages/CDF'
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/packages/CDF'
+Cleaning up /home/amirshk/Downloads/XSB/packages/chr
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/packages/chr'
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/packages/chr'
+Cleaning up /home/amirshk/Downloads/XSB/packages/chr_d
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/packages/chr_d'
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/packages/chr_d'
+Cleaning up /home/amirshk/Downloads/XSB/packages/clpqr
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/packages/clpqr'
+rm -f *~ *% config.log
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/packages/clpqr'
+Cleaning up /home/amirshk/Downloads/XSB/packages/curl
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/packages/curl'
+/bin/rm -f *.xwam *.O *~ .*~ *.bak
+/bin/rm -f cc/*.xwam cc/*.[Oo]  cc/*.so cc/*~ cc/.*~ cc/*.bak
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/packages/curl'
+Cleaning up /home/amirshk/Downloads/XSB/packages/dbdrivers
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/packages/dbdrivers'
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/packages/dbdrivers'
+Cleaning up /home/amirshk/Downloads/XSB/packages/gap
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/packages/gap'
+/bin/rm -f *.xwam *.O *~ .*~ *.bak
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/packages/gap'
+Cleaning up /home/amirshk/Downloads/XSB/packages/justify
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/packages/justify'
+Removing all C object files...
+rm -f parse *.o
+Removing all Prolog bytecode files...
+rm -f *.xwam *.O
+rm -f *~ .*~ *.so
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/packages/justify'
+Cleaning up /home/amirshk/Downloads/XSB/packages/libwww
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/packages/libwww'
+rm -f core *.xwam *.O *~ .*~ *.bak
+rm -f cc/*.H cc/*.so cc/*.[oO] cc/*.xwam cc/*~ cc/.*~ cc/*.bak
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/packages/libwww'
+Cleaning up /home/amirshk/Downloads/XSB/packages/pcre
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/packages/pcre'
+/bin/rm -f *.xwam *.O *~ .*~ *.bak
+/bin/rm -f cc/*.xwam cc/*.[Oo]  cc/*.so cc/*~ cc/.*~ cc/*.bak
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/packages/pcre'
+Cleaning up /home/amirshk/Downloads/XSB/packages/perlmatch
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/packages/perlmatch'
+/bin/rm -f *.xwam *.O *~ .*~ *.bak
+/bin/rm -f cc/*.xwam cc/*.[Oo]  cc/*.so cc/*~ cc/.*~ cc/*.bak
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/packages/perlmatch'
+Cleaning up /home/amirshk/Downloads/XSB/packages/persistent_tables
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/packages/persistent_tables'
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/packages/persistent_tables'
+Cleaning up /home/amirshk/Downloads/XSB/packages/pita
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/packages/pita'
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/packages/pita'
+Cleaning up /home/amirshk/Downloads/XSB/packages/rdf
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/packages/rdf'
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/packages/rdf'
+Cleaning up /home/amirshk/Downloads/XSB/packages/regmatch
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/packages/regmatch'
+/bin/rm -f *.xwam *.O *~ .*~ *.bak
+/bin/rm -f cc/*.xwam cc/*.[Oo]  cc/*.so cc/*~ cc/.*~ cc/*.bak
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/packages/regmatch'
+Cleaning up /home/amirshk/Downloads/XSB/packages/sgml
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/packages/sgml'
+rm -f parser.o util.o charmap.o catalog.o model.o xmlns.o utf8.o xml_unicode.o error.o sgml2pl.o quote.o *~ *.o *% a.out core config.log
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/packages/sgml'
+Cleaning up /home/amirshk/Downloads/XSB/packages/slx
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/packages/slx'
+/bin/rm -f *.xwam *.O *~ .*~ *.bak
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/packages/slx'
+Cleaning up /home/amirshk/Downloads/XSB/packages/viewsys
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/packages/viewsys'
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/packages/viewsys'
+Cleaning up /home/amirshk/Downloads/XSB/packages/w4
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/packages/w4'
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/packages/w4'
+Cleaning up /home/amirshk/Downloads/XSB/packages/wildmatch
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/packages/wildmatch'
+/bin/rm -f *.xwam *.O *~ .*~ *.bak
+/bin/rm -f cc/*.xwam cc/*.[Oo] cc/*.so cc/*~ cc/.*~  cc/*.bak
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/packages/wildmatch'
+Cleaning up /home/amirshk/Downloads/XSB/packages/xasp
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/packages/xasp'
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/packages/xasp'
+Cleaning up /home/amirshk/Downloads/XSB/packages/xmc
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/packages/xmc'
+Removing all C object files...
+rm -f parse *.o
+Removing all Prolog bytecode files...
+rm -f *.xwam *.O
+Removing all libraries!
+rm -f libxlp.a xlparse.so
+Removing intermediate C files...
+rm -f xl.tab.c xl.tab.h lex.yy.c
+Removing junk...
+rm -f *~ .*~ *.so
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/packages/xmc'
+Cleaning up /home/amirshk/Downloads/XSB/packages/xpath
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/packages/xpath'
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/packages/xpath'
+Cleaning up /home/amirshk/Downloads/XSB/packages/xref
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/packages/xref'
+/bin/rm -f *.xwam *.O *~ .*~ *.bak
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/packages/xref'
+Cleaning up /home/amirshk/Downloads/XSB/packages/xsbdoc
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/packages/xsbdoc'
+/bin/rm -f *.xwam *.O *~ .*~ *.bak
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/packages/xsbdoc'
+Cleaning up /home/amirshk/Downloads/XSB/lib
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/lib'
+/bin/rm -f *.xwam *.O core *~ *.bak .#*
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/lib'
+Cleaning up /home/amirshk/Downloads/XSB/syslib
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/syslib'
+rm -f core *~ *.bak .#*
+rm -f objfiles.saved/*
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/syslib'
+Cleaning up /home/amirshk/Downloads/XSB/cmplib
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/cmplib'
+rm -f core *~ *.bak .#*
+rm -f objfiles.saved/*
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/cmplib'
+
+make -f ../config/x86_64-unknown-linux-gnu/topMakefile  
+
+
+Preparing...
+
+Making emulator...
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/emu'
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/emu'
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/emu'
+-e 
+Compiling XSB with gcc using -O3 -fno-strict-aliasing   -fPIC -Wall -pipe   
+
+-e 	[gcc] main_xsb.c
+-e 	[gcc] auxlry.c
+-e 	[gcc] biassert.c
+biassert.c: In function ‘dbgen_printinst3’:
+biassert.c:158:20: warning: type of ‘Opcode’ defaults to ‘int’ [-Wimplicit-int]
+ static inline void dbgen_printinst3(Opcode, Arg1, Arg2, Arg3)
+                    ^
+biassert.c:158:20: warning: type of ‘Arg1’ defaults to ‘int’ [-Wimplicit-int]
+biassert.c:158:20: warning: type of ‘Arg2’ defaults to ‘int’ [-Wimplicit-int]
+biassert.c:158:20: warning: type of ‘Arg3’ defaults to ‘int’ [-Wimplicit-int]
+biassert.c: In function ‘dbgen_printinst’:
+biassert.c:181:20: warning: type of ‘Opcode’ defaults to ‘int’ [-Wimplicit-int]
+ static inline void dbgen_printinst(Opcode, Arg1, Arg2)
+                    ^
+biassert.c:181:20: warning: type of ‘Arg1’ defaults to ‘int’ [-Wimplicit-int]
+biassert.c:181:20: warning: type of ‘Arg2’ defaults to ‘int’ [-Wimplicit-int]
+-e 	[gcc] builtin.c using -O3 -fno-strict-aliasing   -fPIC -Wall -pipe 
+In file included from builtin.c:1410:0:
+io_builtins_xsb_i.h: In function ‘file_function’:
+io_builtins_xsb_i.h:1075:33: warning: ‘charset’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     open_files[io_port].charset = charset;
+                                 ^
+-e 	[gcc] call_xsb.c
+-e 	[gcc] cinterf.c
+-e 	[gcc] conc_compl.c
+-e 	[gcc] debug_xsb.c
+-e 	[gcc] dis.c
+-e 	[gcc] dynload.c
+-e 	[gcc] dynamic_stack.c
+-e 	[gcc] deadlock.c
+-e 	[gcc] emuloop.c using -O3 -fno-strict-aliasing   -fPIC -Wall -pipe 
+-e 	[gcc] error_xsb.c
+-e 	[gcc] findall.c
+-e 	[gcc] function.c
+-e 	[gcc] hash_xsb.c
+-e 	[gcc] hashtable_xsb.c
+-e 	[gcc] heap_xsb.c
+-e 	[gcc] init_xsb.c
+-e 	[gcc] inst_xsb.c
+-e 	[gcc] io_builtins_xsb.c
+-e 	[gcc] loader_xsb.c using -O3 -fno-strict-aliasing   -fPIC -Wall -pipe 
+-e 	[gcc] memory_xsb.c
+-e 	[gcc] orient_xsb.c
+-e 	[gcc] pathname_xsb.c
+-e 	[gcc] psc_xsb.c
+-e 	[gcc] random_xsb.c
+-e 	[gcc] remove_unf.c
+-e 	[gcc] residual.c
+-e 	[gcc] rw_lock.c
+-e 	[gcc] scc_xsb.c
+-e 	[gcc] slgdelay.c
+-e 	[gcc] socket_xsb.c
+-e 	[gcc] string_xsb.c
+-e 	[gcc] storage_xsb.c
+-e 	[gcc] struct_manager.c
+-e 	[gcc] struct_intern.c
+-e 	[gcc] sub_delete.c
+-e 	[gcc] subp.c
+-e 	[gcc] system_xsb.c
+-e 	[gcc] table_stats.c
+-e 	[gcc] tables.c
+-e 	[gcc] thread_xsb.c
+thread_xsb.c: In function ‘init_message_queue’:
+thread_xsb.c:2010:9: warning: variable ‘pos’ set but not used [-Wunused-but-set-variable]
+   { int pos;
+         ^
+-e 	[gcc] timer_xsb.c
+-e 	[gcc] token_xsb.c
+-e 	[gcc] tr_utils.c using -O3 -fno-strict-aliasing   -fPIC -Wall -pipe 
+-e 	[gcc] trace_xsb.c
+-e 	[gcc] trie_lookup.c
+-e 	[gcc] trie_search.c
+-e 	[gcc] tries.c
+-e 	[gcc] tst_insert.c
+-e 	[gcc] tst_retrv.c
+-e 	[gcc] tst_unify.c
+-e 	[gcc] tst_utils.c
+-e 	[gcc] varstring.c
+-e 	[gcc] ubi_BinTree.c
+-e 	[gcc] ubi_SplayTree.c
+-e 	[gcc] hashtable.c
+-e 	[gcc] hashtable_itr.c
+-e 	[gcc] sha1.c
+-e 	[gcc] md5.c
+-e 	[gcc] url_encode.c
+-e 	[gcc] getMemorySize.c
+-e 	[gcc] incr_xsb.c
+-e 	[gcc] call_graph_xsb.c
+
+Making XSB executable /home/amirshk/Downloads/XSB/config/x86_64-unknown-linux-gnu/bin/xsb 
+
+-e 	[gcc] -o /home/amirshk/Downloads/XSB/config/x86_64-unknown-linux-gnu/bin/xsb -lm -ldl -Wl,-export-dynamic -lpthread 
+system_xsb.o: In function `sys_system':
+system_xsb.c:(.text+0xd1d): warning: the use of `tempnam' is dangerous, better use `mkstemp'
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/emu'
+
+Making XSB module...
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/emu'
+
+Making a C-callable XSB module
+gcc  -o xsb.o -nodefaultlibs -nostartfiles  -r auxlry.o biassert.o builtin.o call_xsb.o cinterf.o conc_compl.o debug_xsb.o dis.o dynload.o dynamic_stack.o deadlock.o emuloop.o error_xsb.o findall.o function.o hash_xsb.o  hashtable_xsb.o heap_xsb.o init_xsb.o inst_xsb.o io_builtins_xsb.o loader_xsb.o memory_xsb.o orient_xsb.o pathname_xsb.o psc_xsb.o random_xsb.o remove_unf.o residual.o rw_lock.o scc_xsb.o slgdelay.o socket_xsb.o string_xsb.o storage_xsb.o struct_manager.o struct_intern.o sub_delete.o subp.o system_xsb.o table_stats.o tables.o thread_xsb.o timer_xsb.o token_xsb.o tr_utils.o trace_xsb.o trie_lookup.o trie_search.o tries.o tst_insert.o tst_retrv.o tst_unify.o tst_utils.o varstring.o ubi_BinTree.o ubi_SplayTree.o hashtable.o hashtable_itr.o sha1.o md5.o url_encode.o getMemorySize.o incr_xsb.o call_graph_xsb.o    
+
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/emu'
+
+Making DLL... (if Cygwin)
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/emu'
+make[1]: Nothing to be done for 'dll'.
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/emu'
+
+Making gpp
+make[1]: Entering directory '/home/amirshk/Downloads/XSB/gpp'
+
+-e 	[gcc] gpp.c using  
+gpp.c: In function ‘findCommentEnd’:
+gpp.c:1308:7: warning: format not a string literal and no format arguments [-Wformat-security]
+       fprintf(C->out->f,endseq);
+       ^
+-e 	[gcc] -o gpp
+
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB/gpp'
+make[1]: Entering directory '/home/amirshk/Downloads/XSB'
+
+cd cmplib; make
+make[2]: Entering directory '/home/amirshk/Downloads/XSB/cmplib'
+rm -f 'cmd...'
+rm -f '../build/.xsb_cmplib_warn.tmp'
+/home/amirshk/Downloads/XSB/bin/xsb -e "segfault_handler(warn)." < 'cmd...'
+| ?- | ?- yes
+| ?- 
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- /bin/rm 'cmd...'
+----------------- Warnings ------------------------
+While compiling XSB/cmplib:
+-------------------- End --------------------------
+make[2]: Leaving directory '/home/amirshk/Downloads/XSB/cmplib'
+
+cd syslib; make
+make[2]: Entering directory '/home/amirshk/Downloads/XSB/syslib'
+rm -f '../build/.xsb_syslib_warn.tmp'
+./CompileChangedFiles.sh /home/amirshk/Downloads/XSB/bin/xsb -e "segfault_handler(warn)."
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- ----------------- Warnings ------------------------
+While compiling XSB/syslib:
+-------------------- End --------------------------
+
+make[2]: Leaving directory '/home/amirshk/Downloads/XSB/syslib'
+
+cd lib; make
+make[2]: Entering directory '/home/amirshk/Downloads/XSB/lib'
+/bin/rm -f '../build/.xsb_lib_warn.tmp'
+echo "mc('aggregs', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('array', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('assoc_xsb', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('proc_files', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('basic_props', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('lists', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('constraintLib', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('directry', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('foreign', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('format', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('intern', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('mttestutils', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('mutex_xsb', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('obsolete', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('odbc_call', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('ordsets', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('ora_call', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('packaging', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('random', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('scrptutl', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('socket', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('storage', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('swi', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('ugraphs', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('wrapping', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('write_term', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('xsb_ciao', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('xnmr', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('justifyLP', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('xsb_profiling', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('xsb_lint_impexp', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('dump_table', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('globalvar', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('pairlist', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('pretty_print', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('prolog_db', [sysmod,optimize,quit_on_error])." >> cmd...
+echo "mc('range_trees', [sysmod,optimize,quit_on_error])." >> cmd...
+/home/amirshk/Downloads/XSB/bin/xsb -e "segfault_handler(warn)." < cmd...
+| ?- | ?- yes
+| ?- 
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- yes
+| ?- /bin/rm -f cmd...
+----------------- Warnings ------------------------
+While compiling XSB/lib:
+-------------------- End --------------------------
+make[2]: Leaving directory '/home/amirshk/Downloads/XSB/lib'
+make[1]: Leaving directory '/home/amirshk/Downloads/XSB'
+
+----------------- Warnings ------------------------
+While compiling XSB/cmplib:
+-------------------- End --------------------------
+----------------- Warnings ------------------------
+While compiling XSB/lib:
+-------------------- End --------------------------
+----------------- Warnings ------------------------
+While compiling XSB/syslib:
+-------------------- End --------------------------
+
+
+Now you can run XSB using the shell script:
+       /home/amirshk/Downloads/XSB/bin/xsb
+
+The compilation process has finished
+
+
+
